@@ -1,0 +1,23 @@
+{
+    "exclude": ["./coverage", "./dist", "./src/__tests__", "jest.config.js"],
+    "ts-node": {
+      "transpileOnly": true,
+      "files": true,
+      "compilerOptions": {
+      }
+    },
+    "compilerOptions": {
+  
+      "target": "es2022", 
+      "module": "CommonJS", 
+      "rootDir": "./src", 
+      "moduleResolution": "node",
+      "checkJs": true,
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "skipLibCheck": true,
+    }
+  }
+  
